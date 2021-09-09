@@ -48,3 +48,21 @@ Dominos     | Maryville  | $ 7.50
 
 > "Excellence happens not by accident. It is a process."
 > *- Sir C.V. RAMAN*
+
+
+# String Processing
+> In mathematics, the Z function is a function used for studying the Riemann zeta function along the critical line where the argument is one-half. It is also called the Riemann–Siegel Z function, the Riemann–Siegel zeta function, the Hardy function, the Hardy Z function and the Hardy zeta function. It can be defined in terms of the Riemann–Siegel theta function and the Riemann zeta
+(https://en.wikipedia.org/wiki/Z_function)
+
+```
+vector<int> z_function_trivial(string s) {
+    int n = (int) s.length();
+    vector<int> z(n);
+    for (int i = 1; i < n; ++i)
+        while (i + z[i] < n && s[z[i]] == s[i + z[i]])
+            ++z[i];
+    return z;
+}
+```
+
+[Link](https://cp-algorithms.com/string/z-function.html)
