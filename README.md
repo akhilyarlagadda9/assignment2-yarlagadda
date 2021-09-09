@@ -41,3 +41,10 @@ Food/Drink  | Location   | Price
 Burger      | Joseph     | $ 9.50
 KFC         | Maryville  | $ 6.00
 Dominos     | Maryville  | $ 7.50
+
+# Pithy Quotes
+> "A dream is not that which you see while sleeping, it is something that does not let you sleep."
+> *- APJ ABDUL KALAM*
+
+> "Excellence happens not by accident. It is a process."
+> *- Sir C.V. RAMAN*
